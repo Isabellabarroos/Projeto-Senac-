@@ -1,0 +1,112 @@
+
+ody{
+    background-color: rgba(238, 234, 234, 0.998);
+    margin-right: 0px;
+    padding: 0px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{ 
+   text-decoration: none;    
+}
+
+section{
+    width: 100%;
+    height: 95vh;
+    background-image: url(../img/fundo01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Parte do estilo do navegador */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: white;
+    box-shadow: 2px 2px 12px rgba(195, 41, 203, 0.346);
+    padding: 0px 5%;    
+}
+
+nav ul{
+    display: flex; 
+}
+
+nav ul li a {
+    margin: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.logo{
+
+    color:black;
+    font-size: 25px;
+}
+
+.home{
+    font-weight: bold;
+    color:rgb(21, 115, 197);
+}
+
+/*Estilizando os textos */
+.texto p:nth-child(1){
+
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.733);
+    font-size: 30px;
+}
+
+.texto p:nth-child(2){
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: rgba(0, 0, 0, 0.733);
+    font-size: 25px;
+}
+
+.texto p:nth-child(3){
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: rgba(0, 0, 0, 0.733);
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.texto{
+    line-height: 0px;
+    margin: 45px 0px 25px;
+}
+
+.texto{
+    position: absolute;
+    left: 13%;
+    top: 42%;
+}
+
+.texto button{
+    width: 130px;
+    height: 42px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 12px;
+    outline: none;
+    margin: 0px 10px;
+}
+
+.btn1{
+    border: 2px solid rgba(249, 223, 227, 0.986);
+    color: black;
+    
+}
+
+button:active{
+    transform: scale(1.1);
+}
