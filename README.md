@@ -3,4 +3,4 @@
 
 Primeiro projeto simples individual no qual eu conto um pouco sobre mim, meus hobbies e contatos.
 
-Não consegui efetuar a parte do responsivo neste projeto, porém continuarei estudo mais sobre.
+Não consegui efetuar a parte do responsivo neste projeto, porém continuarei estudando mais sobre.
